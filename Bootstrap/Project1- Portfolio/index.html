@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <link href="style.css" rel="stylesheet" type="text/css" />    
+         <style>
+        section{
+            height: 100vh;
+            width: 100vw;
+            padding: 50px;
+               }
+        
+       .homeimgcontent{
+           padding: 150px;
+           text-align: center;
+           color: white;
+       }
+       
+       img{
+           width: 250px;
+           height: 250px;
+           transition: opacity 1s ease-in-out;
+       }
+       img:hover{
+           opacity: 0.5;
+       }
+       .col-text{
+         -webkit-column-count:3;
+       }
+
+       footer{
+         background: black;
+         color: white;
+         bottom: 0;
+         left: 0;
+         padding: 2px;
+         text-align: center;
+         position: fixed;
+         width: 100%;
+       }
+     
+        
+       
+    </style>
+    </head>
+  <body data-spy="scroll" data-target=".navbar">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+             <ul class="nav navbar-nav">
+                 <li><a href="#home">Home</a></li>
+                  <li><a href="#whatido">What I do</a></li>
+                   <li><a href="#about">What about me</a></li>`
+                    <li><a href="#contact">Contact Me</a></li>
+             </ul>
+        </nav>
+         
+         
+         <section style="background: url(https://theblogimages.adobe.com/wp-content/uploads/2017/07/uxportfolio-2.jpg); background-size: 100% 100%;" id="home">
+             <div class="homeimgcontent">
+             <h1><strong>My Portfolio</strong></h1>
+             <p class="lead">Let just read myself and Contact Me</p>
+             <button class="btn btn-default">Contact me!</button>
+             </div>
+         </section>
+         
+         <section id="whatido">
+             <div class="page-header">
+                 <h1 class="text-center">My Work</h1>
+             </div>
+             <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+              <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+               <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+                <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+                 <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+                  <img src="https://kcssolutions.co.uk/wp-content/uploads/2019/05/mockuper-2-1-600x600.png" class="img-thumbnail">
+         </section>
+
+          <section id="about">
+            <h1 class="page-header text-center">About Me</h1>
+            <p class="col-text">Hello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU KotaHello I am Narendra Kumar. I am graduated in computer science and technology from RTU Kota</p>
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1">
+                 <div class="panel panel-primary">
+                <div class="panel-heading text-center">Full Stack Developer</div>
+                <div class="panel-body"><center><img src="https://i.udemycdn.com/course/750x422/1002676_3c6e_2.jpg" class="img-circle" style="height: 150px; width: 200px;"></center>
+                <p class="lead text-center">Full stack work</p></div>
+                <div class="panel-footer">By NARENDRA</div>
+                </div>
+           </div>
+
+           <div class="col-md-5">
+                 <div class="panel panel-primary">
+                <div class="panel-heading text-center">Full Stack Developer</div>
+                <div class="panel-body"><center><img src="https://i.udemycdn.com/course/750x422/1002676_3c6e_2.jpg" class="img-circle" style="height: 150px; width: 200px;"></center>
+                <p class="lead text-center">Full stack work</p></div>
+                <div class="panel-footer">By NARENDRA</div>
+                </div>
+           </div>
+
+            </div>
+            
+         </section>
+
+         <section style="background: silver;" id="contact">
+          <h1 class="text-center page-header">Contact me!</h1>
+          <form>
+            <div class="col-md-6 col-md-offset-3">
+            <div class="form-group">
+              <input type="text" placeholder="Enter your name" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <input type="email" placeholder="Enter your email" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Enter your address" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" rows="10" placeholder="Any Comments"></textarea>
+            </div>
+
+            <div class="form-group">
+              <button class="btn btn-success btn-block">Click to Submit</button>
+            </div>
+            </div>
+            </form>
+         </section>
+
+         <footer>Copyright<span>&copy;</span>Narendra_Kumar TCS 2019</footer>
+      
+             
+        
+
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

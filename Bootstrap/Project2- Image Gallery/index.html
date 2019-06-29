@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Gallery</title>
+    <style>
+      img{
+        height: 100%;
+        width: 100%;
+      }
+
+      .thumbnail img{
+        height: 200px;
+        width: 300px;
+      }
+     
+
+      
+    </style>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>  
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+            <div class="navbar-brand">
+              Image Gallery
+            </div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Nature Gallery</a></li>
+              <li><a href="#">Science Gallery</a></li>
+
+            </ul>
+           </div>
+          </nav>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+              <div class="carousel slide" data-ride="carousel" id="mycarousel">
+               <ol class="carousel-indicators">
+                <li class="active" data-target="#mycarousel" data-slide-to="0"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+              </ol>
+              
+              <div class="carousel-inner">
+                
+                <div class="item active">
+                  <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/kodaikanal-2836301.jpg?crop=0,96,2560,1408&wid=4000&hei=2200&scl=0.64">
+                  <div class="carousel-caption">
+                    <h2>Image 1</h2>
+                    <p>"Nature" can refer to the phenomena of the physical world, and also to life in general. </p>
+                  </div>
+                  
+                </div>
+                
+                
+                <div class="item">
+                    <img src="https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg">
+                    <div class="carousel-caption">
+                    <h2>Image 2</h2>
+                    <p>"Nature" can refer to the phenomena of the physical world, and also to life in general. </p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="http://www.visitqatar.qa/binaries/content/gallery/qatartourism/discover/natural-wonders/natural-wonders-search.jpg">
+                  <div class="carousel-caption">
+                    <h2>Image 3</h2>
+                    <p>"Nature" can refer to the phenomena of the physical world, and also to life in general. </p>
+                  </div>
+                </div>
+                
+                <div class="item">
+                  <img src="https://hub.umd.edu/sites/default/files/2019-04/image/Students_Outdoors_04152019_9596_1920x1080-min.jpg">
+                  <div class="carousel-caption">
+                    <h2>Image 4</h2>
+                    <p>"Nature" can refer to the phenomena of the physical world, and also to life in general. </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span></a>
+    
+             <a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span></a>
+            </div>
+            </div>
+            
+            
+            </div>
+            
+            
+            <div class="row">
+              <div class="page-header">
+              <h2>Photo Gallery</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <a href="#m1" class="thumbnail" data-toggle="modal">
+                  <img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/agra-min-min-1.jpg">
+                </a>
+                <div class="modal fade" id="m1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/agra-min-min-1.jpg" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+               <div class="col-md-4">
+                <a href="#m2" class="thumbnail" data-toggle="modal">
+                  <img src="https://static2.tripoto.com/media/filter/nl/img/308363/SpotDocument/1512627485_1512627478_historicalmonuments23.jpg">
+                </a>
+                <div class="modal fade" id="m2">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://static2.tripoto.com/media/filter/nl/img/308363/SpotDocument/1512627485_1512627478_historicalmonuments23.jpg" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+               <div class="col-md-4">
+                <a href="#m3" class="thumbnail" data-toggle="modal">
+                  <img src="https://static.toiimg.com/photo/50352862.cms.cms">
+                </a>
+                <div class="modal fade" id="m3">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://static.toiimg.com/photo/50352862.cms.cms" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+               <div class="col-md-4">
+                <a href="#m4" class="thumbnail" data-toggle="modal">
+                  <img src="https://live.staticflickr.com/8046/8118419340_88d8574194_b.jpg">
+                </a>
+                <div class="modal fade" id="m4">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://live.staticflickr.com/8046/8118419340_88d8574194_b.jpg" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+               <div class="col-md-4">
+                <a href="#m5" class="thumbnail" data-toggle="modal">
+                  <img src="https://static.toiimg.com/photo/50352862.cms.cms">
+                </a>
+                <div class="modal fade" id="m5">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://static.toiimg.com/photo/50352862.cms.cms" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+               <div class="col-md-4">
+                <a href="#m6" class="thumbnail" data-toggle="modal">
+                  <img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/agra-min-min-1.jpg">
+                </a>
+                <div class="modal fade" id="m6">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-center">TAJMAHAL INDIA</div>
+                      <div class="modal-body"><img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/agra-min-min-1.jpg" class="img-thumbnail"></div>
+                      <div class="modal-footer">Narendra</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+
+          
+              <footer class="navbar navbar-default navbar-fixed-bottom" style="padding: 10px;">
+                <div class="container">
+                   <P class="text-center">Copyright <span>&copy;</span>Narendra_Creation 2019</p>
+                </div>
+               
+              </footer>
+
+          
+            
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
